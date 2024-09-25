@@ -8,5 +8,5 @@ const mainRoutes = require('./routes/mainRoutes');
 app.use(mainRoutes);
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Hello! The server is running on port ${PORT}`);
 });
