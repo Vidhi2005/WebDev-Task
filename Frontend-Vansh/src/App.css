@@ -1,0 +1,171 @@
+.main {
+  display: flex;
+
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: linear-gradient(180deg, #181053 -21.94%, #301840 17.1%, #3F033B 62.89%, #592635 110.93%);
+  height: 94vh;
+  position: fixed;
+  padding: 28px;
+  color: white;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: calc(100vw - 405px);
+  display: flex;
+  right: 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: white;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+
+  margin: 0px;
+}
+
+.acc {
+  position: relative;
+  height: 48px;
+  margin-top: 16px;
+}
+
+.info {
+  display: flex;
+  margin-top: 12px;
+  padding: 12px 24px;
+  gap: 12px;
+}
+
+.data-side {
+  display: flex;
+  gap: 32px;
+  padding: 0px 24px;
+}
+
+.career {
+  padding: 32px 48px;
+  background: white;
+  border-radius: 16px;
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.career p {
+  font-weight: 500;
+  
+}
+
+.career p:nth-child(2) {
+  color: green;
+}
+
+.career:before {
+  content: "Career Options";
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+
+.info-item {
+  padding: 8px 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+  min-width: 15%;
+}
+
+.acc a {
+  padding: 12px 24px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.acc a.active {
+  border-bottom: 2px solid black;
+  opacity: 1 !important;
+}
+
+.content {
+  height: 100vh;
+  background-color: #F8FAFC;
+  width: calc(100vw - 360px);
+  position: absolute;
+  right: 0px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.profile-content * {
+  margin: 0;
+}
+
+.profile-content p {
+  opacity: 0.6;
+}
+
+.profile-content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.navbar h1 {
+  font-size: 25px;
+  font-weight: 500;
+   margin: 0;
+   margin-bottom: 12px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+}
+
+.items a {
+  padding: 26px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.items a:nth-child(5) {
+  border-bottom: 0px !important;
+}
+
+.setting-button{
+  display: flex;
+  justify-content:left;
+  padding: 12px;
+  border: 1px solid #F8FAFC;
+  border-radius: 5px;
+  opacity: 0.4;
+  margin-left: -5px;
+}
+
+.setting-button svg{
+color: #F8FAFC !important;
+ 
+}
